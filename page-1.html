@@ -7,16 +7,19 @@
     <title>dark-mode</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script async src="script.js"></script>
-    <script>
-	if(localStorage.getItem('darkMode')=='enabled'){
-    body.classList.toggle('dark')
-    // e.target.textContent=="dark"?e.target.textContent="light":e.target.textContent="dark";
-    dark.textContent="light"
-    }else{
-    dark.textContent="dark"
+    
+    
+	<script >
+        if(localStorage.getItem('darkMode')=='enabled'){
+        document.body.style.backgroundColor='#333'
+        document.body.style.color='blanchedalmond'
     }
-	</script>
+    if(localStorage.getItem('darkMode')==null){
+        localStorage.setItem('darkMode','disabled')
+        document.body.style.backgroundColor='smokewhite'
+        document.body.style.color='black'
+    }
+        </script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,6 +28,6 @@
         <h1><a class="btn btn-outline-warning dark-btn">dark</a></h1>
         <h1><a href="page-2.html" class="btn btn-outline-success">page-2</a></h1>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
