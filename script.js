@@ -22,4 +22,4 @@ if(localStorage.getItem('darkMode')=='enabled'){
     dark.textContent="light"
 }else{
     dark.textContent="dark"
-}
+}  
