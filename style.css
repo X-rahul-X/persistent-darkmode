@@ -1,0 +1,16 @@
+.head{
+   text-align: center;
+    margin-top:50px;
+}
+
+.dark{
+    background-color: #333;
+    color: blanchedalmond;
+    transition:background-color 0.3s ease-in-out;
+}
+
+body{
+    background-color:whitesmoke;
+    color: black;
+    transition:background-color 0.3s ease-in-out;
+}
