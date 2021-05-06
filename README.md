@@ -8,4 +8,4 @@ a simple darkmode which is available across webpages ,made with local storage!
 
 
 ### you can check here
-#### [darkmode](https://rahul007cdr.github.io/persistent-darkmode/page-1.html)
+#### [darkmode](https://x-rahul-x.github.io/persistent-darkmode/page-2.html)
